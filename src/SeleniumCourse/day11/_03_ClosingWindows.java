@@ -7,7 +7,7 @@ import SeleniumCourse.utils.BaseDriver;
 import java.util.List;
 import java.util.Set;
 
-public class _03_ClosingWindows extends BaseDriver {
+public class  _03_ClosingWindows extends BaseDriver {
     public static void main(String[] args) throws InterruptedException {
         driver.get("https://www.selenium.dev/");
         String mainWindowHandle = driver.getWindowHandle();

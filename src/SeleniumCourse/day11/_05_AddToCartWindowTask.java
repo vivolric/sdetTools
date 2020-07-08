@@ -16,6 +16,7 @@ public class _05_AddToCartWindowTask extends BaseDriver {
 
         // click on any product
         driver.findElement(By.cssSelector(".trendingProd:not(.bx-clone) > a")).click();
+
         // switch to new window that was opened
         String mainWindowHandle = driver.getWindowHandle();
         Set<String> windowHandles = driver.getWindowHandles();
@@ -26,17 +27,22 @@ public class _05_AddToCartWindowTask extends BaseDriver {
         }
         // store the product name
         String productName = driver.findElement(By.cssSelector("h1[itemprop=\"name\"]")).getText();
+
         // click on add to cart
         driver.findElement(By.id("add-cart-button-id")).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mess-container")));
+
         // close the window
         driver.close();
+
         // switch back to main window
         driver.switchTo().window(mainWindowHandle);
+
         // click on the cart
         driver.findElement(By.cssSelector(".cartContainer")).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#rtbScriptContainer")));
-        // verify that cart contains you product by name
+
+        // verify that cart contains your product by name
         String actualProductName = driver.findElement(By.cssSelector(".item-name")).getText();
         Assert.assertEquals(productName, actualProductName);
 

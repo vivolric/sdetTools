@@ -18,6 +18,5 @@ public class _08_IframesSwitchByIndex extends BaseDriver {
             System.out.println("numberOfNestedIframes: " + numberOfNestedIframes);
             driver.switchTo().parentFrame(); // if i dont do this, will be switch inside nested iframe
         }
-
     }
 }

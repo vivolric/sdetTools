@@ -29,7 +29,7 @@ public class _02_SwitchingToWindow extends BaseDriver {
             }
         }
 
-        driver.quit();
+        //driver.quit();
     }
 
 }
