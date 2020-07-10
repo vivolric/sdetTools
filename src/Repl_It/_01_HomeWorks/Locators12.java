@@ -41,7 +41,7 @@ public class Locators12 {
         WebElement title = driver.findElement(By.id("title"));
         title.sendKeys("Oguz Atay");
 
-        WebElement description= driver.findElement(By.id("description"));
+        WebElement description = driver.findElement(By.id("description"));
         description.sendKeys("cok iyi");
 
         driver.findElement(By.id("btn-submit")).click();

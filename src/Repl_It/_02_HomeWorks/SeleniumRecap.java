@@ -3,6 +3,14 @@ package Repl_It._02_HomeWorks;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+// import utils.BaseDriver;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
 public class SeleniumRecap {
 
     /*
@@ -30,8 +38,27 @@ public class SeleniumRecap {
         System.setProperty("webdriver.chrome.driver", "/Users/bulut/Selenium/chromedriver");
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://pwa-woo.wpmobilepack.com/#/category/88");
+        //driver.get("https://pwa-woo.wpmobilepack.com/#/category/88");
 
+        driver.navigate().to("https://pwa-woo.wpmobilepack.com/#/category/88");
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        int number1 = (int) (Math.random()*12);
+        int number2 = (int) (Math.random()*12);
+        List <WebElement> itmeNames = driver.findElements(By.cssSelector(".extra>a"));
+        System.out.println(itmeNames.size());
+        itmeNames.get(number1).click();
+        driver.findElement(By.cssSelector("div.ui>button.ui ")).click();
+
+        driver.navigate().back();
+        itmeNames.get(number2).click();
+//        ArrayList<String> items = new ArrayList<>();
+//        for (WebElement itmeName:itmeNames) {
+//            items.add(itmeName.getText());
+//        }
+//        String itemName1 = items.get(number1);
+//        System.out.println(itemName1);
+//        String itemName2 = items.get(number2);
+//        System.out.println(itemName2);
 
 
     }

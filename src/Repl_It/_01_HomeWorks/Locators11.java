@@ -15,20 +15,20 @@ public class Locators11 {
     Print the " Uncheck All" text from the Uncheck All button
 
     */
-public static void main(String[] args) {
-    System.setProperty("webdriver.chrome.driver", "/Users/bulut/Selenium/chromedriver");
-    WebDriver driver = new ChromeDriver();
+    public static void main(String[] args) {
+        System.setProperty("webdriver.chrome.driver", "/Users/bulut/Selenium/chromedriver");
+        WebDriver driver = new ChromeDriver();
 
-    driver.get("https://www.seleniumeasy.com/test/basic-checkbox-demo.html");
+        driver.get("https://www.seleniumeasy.com/test/basic-checkbox-demo.html");
 
-    WebElement checkAll = driver.findElement(By.id("check1"));
-    checkAll.click();
+        WebElement checkAll = driver.findElement(By.id("check1"));
+        checkAll.click();
 
-    WebElement uncheckAll = driver.findElement(By.cssSelector("input[value='Uncheck All']"));
+        WebElement uncheckAll = driver.findElement(By.cssSelector("input[value='Uncheck All']"));
 
-    String printUncheckAll = uncheckAll.getAttribute("value");
-    System.out.println(printUncheckAll);
+        String printUncheckAll = uncheckAll.getAttribute("value");
+        System.out.println(printUncheckAll);
 
-}
+    }
 
 }

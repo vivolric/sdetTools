@@ -1,5 +1,6 @@
 package Repl_It._02_HomeWorks;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -21,7 +22,11 @@ public class Alert1 {
 
         driver.get("https://www.toolsqa.com/handling-alerts-using-selenium-webdriver/");
 
-
+                driver.manage().window().maximize();
+                driver.navigate().to("https://www.toolsqa.com/handling-alerts-using-selenium-webdriver/");
+                driver.findElement(By.cssSelector("p>button")).click();
+                Thread.sleep(2000);
+                driver.switchTo().alert().accept();
 
     }
 }

@@ -17,16 +17,15 @@ public class Locators1 {
      */
 
     public static void main(String[] args) {
-    System.setProperty("webdriver.chrome.driver", "/Users/bulut/Selenium/chromedriver");
-    WebDriver driver =new ChromeDriver();
-    driver.get("https://testpages.herokuapp.com/styled/index.html");
+        System.setProperty("webdriver.chrome.driver", "/Users/bulut/Selenium/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://testpages.herokuapp.com/styled/index.html");
 
-    driver.findElement(By.id("alerttest")).click();
+        driver.findElement(By.id("alerttest")).click();
 
-    String URL = driver.getCurrentUrl();
+        String URL = driver.getCurrentUrl();
         System.out.println(URL);
 
 
-
-
-}}
+    }
+}

@@ -25,8 +25,10 @@ public class FindElements1 {
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.snapdeal.com/");
-
-
+        WebElement allCategories = driver.findElement(By.cssSelector("span[class='catText blue-text']"));
+        allCategories.click();
+        Thread.sleep(2000);
+        System.out.println(driver.findElements(By.cssSelector("div[class='SmBox1'] li")).size());
 
     }
 }
