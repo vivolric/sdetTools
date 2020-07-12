@@ -13,9 +13,9 @@ public class _02_HandleDropdown extends BaseDriver {
 
     public static void main(String[] args) {
 
-//        https://pwa-woo.wpmobilepack.com/#/product/1297
-//        https://pwa-woo.wpmobilepack.com/#/product/1296
-//        https://pwa-woo.wpmobilepack.com/#/product/1299
+        //        https://pwa-woo.wpmobilepack.com/#/product/1297   > had 2 dropdowns (color and size)
+        //        https://pwa-woo.wpmobilepack.com/#/product/1296
+        //        https://pwa-woo.wpmobilepack.com/#/product/1299
         driver.get("https://pwa-woo.wpmobilepack.com/#/product/1297");
 
         handlingDropdowns();
@@ -25,16 +25,17 @@ public class _02_HandleDropdown extends BaseDriver {
 
         WebDriverWait wait = new WebDriverWait(driver , 3);
 
-//        Get all the dropdown from the website
+        // Get all the dropdown from the website
 
         By dropdownByObject =By.xpath("//div[@class='ui fluid selection dropdown']");
 
         /*
             If there is an dropdown element wait.until will wait 3 seconds and wait for that dropdowns
 
-            but if not able to see the dropdowns explicit wait will throw error. Try catch is helping us to handle that exception
-                and continue to next line.
+            But if not able to see the dropdowns explicit wait will throw error.
+            Try catch is helping us to handle that exception and continue to next line.
          */
+
         try{
             wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(dropdownByObject,0));
         }catch (TimeoutException e){
@@ -48,7 +49,7 @@ public class _02_HandleDropdown extends BaseDriver {
         for(WebElement eachDropdown:dropdownList){
             eachDropdown.click();
 
-//            In this dropdown we can not use a select class because tag name is div.
+        // In this dropdown we can not use a select class because tag name is div.
             driver.findElement(By.xpath("(//div[@class='ui active visible fluid selection dropdown']//span)[1]")).click();
         }
 

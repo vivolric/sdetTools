@@ -95,9 +95,10 @@ public class _01_HW extends BaseDriver {
     /*
         ElementClickInterceptedException
             Selenium is able to find an element
-            But there is pop op or something different front of the element.
+            But there is pop-up or something different front of the element.
 
      */
+
 
 
     /*
@@ -106,6 +107,7 @@ public class _01_HW extends BaseDriver {
 
         Remove all the non numberic numbers from the String and change it to double and return it.
      */
+
     public static double StringToDouble(String number){
 
 //        Removing all the non-numeric char from the String
