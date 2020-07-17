@@ -8,5 +8,7 @@ public class BaseDriver {
     static {
         System.setProperty("webdriver.chrome.driver", "/Users/bulut/Selenium/chromedriver");
         driver = new ChromeDriver();
+//        driver.manage().window().maximize();
+//        driver.get("http://opencart.abstracta.us/index.php?route=common/home");
     }
 }
