@@ -1,16 +1,9 @@
 package SeleniumCourse.day10;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import SeleniumCourse.utils.BaseDriver;
-
-import java.util.concurrent.TimeUnit;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _06_FillingFormTask extends BaseDriver {
     public static void main(String[] args)  {

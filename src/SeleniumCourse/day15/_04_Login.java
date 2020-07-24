@@ -1,6 +1,6 @@
 package SeleniumCourse.day15;
 
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;

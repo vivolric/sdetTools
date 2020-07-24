@@ -1,8 +1,7 @@
 package SeleniumCourse.day7;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 
 public class _03_SimpleAlert extends BaseDriver {

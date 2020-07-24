@@ -3,7 +3,7 @@ package SeleniumCourse.day6;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _03_AddToCart extends BaseDriver {
     public static void main(String[] args) {

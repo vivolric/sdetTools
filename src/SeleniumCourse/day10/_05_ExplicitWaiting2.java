@@ -3,7 +3,7 @@ package SeleniumCourse.day10;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _05_ExplicitWaiting2 extends BaseDriver {
     public static void main(String[] args) throws InterruptedException {

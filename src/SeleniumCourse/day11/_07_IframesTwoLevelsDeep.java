@@ -1,7 +1,7 @@
 package SeleniumCourse.day11;
 
 import org.openqa.selenium.By;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _07_IframesTwoLevelsDeep extends BaseDriver {
     public static void main(String[] args) {

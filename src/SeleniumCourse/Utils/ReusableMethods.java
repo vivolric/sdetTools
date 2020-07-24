@@ -1,4 +1,4 @@
-package SeleniumCourse.utils;
+package SeleniumCourse.Utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

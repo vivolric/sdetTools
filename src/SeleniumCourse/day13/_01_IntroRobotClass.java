@@ -1,9 +1,6 @@
 package SeleniumCourse.day13;
 
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Actions;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;

@@ -1,11 +1,7 @@
 package SeleniumCourse.day10;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Action;
-import org.openqa.selenium.interactions.Actions;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _01_OldWayOfWaiting extends BaseDriver {
     public static void main(String[] args) throws InterruptedException {

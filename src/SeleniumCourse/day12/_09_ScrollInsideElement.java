@@ -2,13 +2,8 @@ package SeleniumCourse.day12;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import SeleniumCourse.utils.BaseDriver;
-
-import java.util.List;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _09_ScrollInsideElement extends BaseDriver {
 

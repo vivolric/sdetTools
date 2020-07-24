@@ -1,7 +1,7 @@
 package SeleniumCourse.day12;
 
 import org.openqa.selenium.JavascriptExecutor;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _03_IntroScrollingAllTheWayDown extends BaseDriver {
 

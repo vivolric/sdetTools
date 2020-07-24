@@ -1,4 +1,4 @@
-package SeleniumCourse.utils;
+package SeleniumCourse.Utils;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,7 +8,7 @@ public class BaseDriver {
     static {
         System.setProperty("webdriver.chrome.driver", "/Users/bulut/Selenium/chromedriver");
         driver = new ChromeDriver();
-//        driver.manage().window().maximize();
-//        driver.get("http://opencart.abstracta.us/index.php?route=common/home");
+        driver.manage().window().maximize();
+        driver.get("http://opencart.abstracta.us/index.php?route=common/home");
     }
 }

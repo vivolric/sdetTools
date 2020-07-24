@@ -3,7 +3,7 @@ package SeleniumCourse.day5;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _12_XPathCheckFinishPage extends BaseDriver {
     public static void main(String[] args) {

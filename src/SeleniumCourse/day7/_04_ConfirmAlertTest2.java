@@ -2,7 +2,7 @@ package SeleniumCourse.day7;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 
 public class _04_ConfirmAlertTest2 extends BaseDriver {

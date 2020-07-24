@@ -1,6 +1,6 @@
 package SeleniumCourse.day15;
 
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 import org.testng.annotations.Test;
 
 public class _03_Sample extends BaseDriver {

@@ -1,7 +1,7 @@
 package SeleniumCourse.day4;
 
 import org.openqa.selenium.By;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _03_SelectingByTagAndAttribute extends BaseDriver {
     public static void main(String[] args) throws InterruptedException {

@@ -1,7 +1,7 @@
 package SeleniumCourse.day16;
 
-import SeleniumCourse.utils.BaseDriver;
-import SeleniumCourse.utils.ReusableMethods;
+import SeleniumCourse.Utils.BaseDriver;
+import SeleniumCourse.Utils.ReusableMethods;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;

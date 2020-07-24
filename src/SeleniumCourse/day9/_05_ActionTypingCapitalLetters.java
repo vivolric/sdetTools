@@ -1,14 +1,10 @@
 package SeleniumCourse.day9;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import SeleniumCourse.utils.BaseDriver;
-
-import java.security.Key;
-import java.util.List;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _05_ActionTypingCapitalLetters extends BaseDriver {
     public static void main(String[] args) {

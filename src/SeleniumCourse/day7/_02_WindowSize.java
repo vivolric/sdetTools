@@ -1,11 +1,7 @@
 package SeleniumCourse.day7;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
-import SeleniumCourse.utils.BaseDriver;
-
-
-import java.util.concurrent.TimeUnit;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _02_WindowSize extends BaseDriver {
     public static void main(String[] args) {

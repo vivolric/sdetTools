@@ -1,6 +1,6 @@
 package SeleniumCourse.day7;
 
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _00_ extends BaseDriver {
     public static void main(String[] args) {

@@ -1,10 +1,7 @@
 package SeleniumCourse.day7;
 
 import org.openqa.selenium.By;
-import SeleniumCourse.utils.BaseDriver;
-
-
-import java.util.concurrent.TimeUnit;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _01_ThreadSleepExample extends BaseDriver {
     public static void main(String[] args) throws InterruptedException {

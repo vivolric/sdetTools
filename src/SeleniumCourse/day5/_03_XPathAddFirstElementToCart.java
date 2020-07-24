@@ -2,7 +2,7 @@ package SeleniumCourse.day5;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _03_XPathAddFirstElementToCart extends BaseDriver {
     public static void main(String[] args) {

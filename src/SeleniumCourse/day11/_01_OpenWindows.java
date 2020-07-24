@@ -2,7 +2,7 @@ package SeleniumCourse.day11;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 import java.util.List;
 import java.util.Set;

@@ -1,9 +1,7 @@
 package SeleniumCourse.day12;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _10_Romainpenchenat extends BaseDriver {
 

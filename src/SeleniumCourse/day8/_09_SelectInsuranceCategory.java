@@ -2,7 +2,7 @@ package SeleniumCourse.day8;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
-import SeleniumCourse.utils.BaseDriver;
+import SeleniumCourse.Utils.BaseDriver;
 
 import java.util.concurrent.TimeUnit;
 

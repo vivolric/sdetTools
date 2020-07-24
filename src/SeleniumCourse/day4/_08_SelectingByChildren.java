@@ -2,9 +2,7 @@ package SeleniumCourse.day4;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import SeleniumCourse.utils.BaseDriver;
-
-import java.util.List;
+import SeleniumCourse.Utils.BaseDriver;
 
 public class _08_SelectingByChildren extends BaseDriver {
     public static void main(String[] args) throws InterruptedException {
