@@ -1,6 +1,6 @@
 package SeleniumCourse.day6;
 
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 public class _00_FunctionsPlan extends BaseDriver {
     public static void main(String[] args) {

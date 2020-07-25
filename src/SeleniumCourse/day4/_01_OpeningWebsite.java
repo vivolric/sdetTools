@@ -1,6 +1,6 @@
 package SeleniumCourse.day4;
 
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 public class _01_OpeningWebsite extends BaseDriver {
 

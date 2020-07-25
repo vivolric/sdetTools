@@ -1,7 +1,7 @@
 package SeleniumCourse.day10;
 
 import org.openqa.selenium.By;
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 import java.util.concurrent.TimeUnit;
 

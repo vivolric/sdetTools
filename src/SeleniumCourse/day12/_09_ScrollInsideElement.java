@@ -3,7 +3,7 @@ package SeleniumCourse.day12;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 public class _09_ScrollInsideElement extends BaseDriver {
 

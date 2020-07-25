@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 public class _02_ActionDoubleClickTest extends BaseDriver {
     public static void main(String[] args) {

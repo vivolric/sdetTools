@@ -1,6 +1,6 @@
 package SeleniumCourse.day5;
 
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 public class _00_XPathPlan extends BaseDriver {
     public static void main(String[] args) {

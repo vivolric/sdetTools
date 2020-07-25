@@ -2,7 +2,7 @@ package SeleniumCourse.day11;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 public class _09_IframesGetAllNested extends BaseDriver {
     public static void main(String[] args) {

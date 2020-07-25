@@ -2,7 +2,7 @@ package SeleniumCourse.day11;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 public class _11_IframePractice extends BaseDriver {
     public static void main(String[] args) {

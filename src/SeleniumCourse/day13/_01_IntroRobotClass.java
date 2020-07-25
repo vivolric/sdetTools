@@ -1,6 +1,6 @@
 package SeleniumCourse.day13;
 
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;

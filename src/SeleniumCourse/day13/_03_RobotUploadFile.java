@@ -1,7 +1,7 @@
 package SeleniumCourse.day13;
 
 import org.openqa.selenium.By;
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;

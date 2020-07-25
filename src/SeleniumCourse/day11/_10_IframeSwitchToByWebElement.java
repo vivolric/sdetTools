@@ -2,7 +2,7 @@ package SeleniumCourse.day11;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 public class _10_IframeSwitchToByWebElement extends BaseDriver {
     public static void main(String[] args) {

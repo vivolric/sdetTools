@@ -1,7 +1,7 @@
 package SeleniumCourse.day5;
 
 import org.openqa.selenium.By;
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 public class _01_XPathLogin extends BaseDriver {
     public static void main(String[] args) {

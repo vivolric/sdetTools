@@ -1,7 +1,7 @@
 package SeleniumCourse.day4;
 
 import org.openqa.selenium.By;
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 public class _02_SelectingById extends BaseDriver {
     public static void main(String[] args) throws InterruptedException {

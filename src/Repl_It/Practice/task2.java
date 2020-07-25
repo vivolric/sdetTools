@@ -1,6 +1,6 @@
 package Repl_It.Practice;
 
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

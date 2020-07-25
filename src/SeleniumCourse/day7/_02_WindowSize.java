@@ -1,7 +1,7 @@
 package SeleniumCourse.day7;
 
 import org.openqa.selenium.Dimension;
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 public class _02_WindowSize extends BaseDriver {
     public static void main(String[] args) {

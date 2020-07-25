@@ -1,0 +1,10 @@
+<suite name ="WishList">
+    <test name = "Test1">
+
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="TestNG.Day8._01_WishList"></class>
+        </classes>
+    </test>
+</suite>
+

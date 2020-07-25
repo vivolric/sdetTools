@@ -1,7 +1,7 @@
 package SeleniumCourse.day13;
 
 import org.openqa.selenium.By;
-import SeleniumCourse.Utils.BaseDriver;
+import Utils.BaseDriver;
 
 public class _04_RobotUploadFileAlternative extends BaseDriver {
     public static void main(String[] args) throws InterruptedException {

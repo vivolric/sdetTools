@@ -1,0 +1,11 @@
+<suite name ="smokteTest suite">
+    <test name="SmokeTest test">
+        <classes>
+            <class name="TestNG.Day2._03_EditAccount"></class>
+            <class name="TestNG.Day2._02_Subscribe"></class>
+            <class name="TestNG.Day2._01_ValidateMenu"></class>
+        </classes>
+    </test>
+</suite>
+
+
