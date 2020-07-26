@@ -6,19 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
-public class BaseDriver {
-//    public static WebDriver driver;
-//    static {
-//        System.setProperty("webdriver.chrome.driver", "/Users/bulut/Selenium/chromedriver");
-//        driver = new ChromeDriver();
-//        //driver.manage().window().maximize();
-//        driver.get("http://opencart.abstracta.us/index.php?route=common/home");
-//    }
-//}
+public class BaseDriver  {
 
     /*
      WebDriver driver; access modifier is a default --> accessible in the same package
@@ -26,7 +16,7 @@ public class BaseDriver {
      We need to make driver as public or protected so we are able to access it
      */
 
-    protected static WebDriver driver;
+    protected WebDriver driver;
 
     @BeforeMethod(groups = {"SmokeTesting","Regression"})
     @Parameters({"browser"})
@@ -39,9 +29,10 @@ public class BaseDriver {
 
         if(browser.equalsIgnoreCase("chrome")){
             System.setProperty("webdriver.chrome.driver", "/Users/bulut/Selenium/chromedriver");
-            driver = new ChromeDriver(); // Opening the chrome
+            driver = new ChromeDriver(); // Opennning the chrome
+
         }else if(browser.equalsIgnoreCase("firefox")){
-//                                                                                No exe for mac
+//                                                                              No exe for mac
             System.setProperty("webdriver.gecko.driver" ,"/Users/bulut/Selenium/geckodriver");
             driver = new FirefoxDriver();
         }
@@ -52,24 +43,19 @@ public class BaseDriver {
         WebElement myAccount = driver.findElement(By.xpath("//span[text()='My Account']"));
         myAccount.click();
 
-        //WebElement loginButton = driver.findElement(By.linkText("Login"));
-//        WebElement loginButton = driver.findElement(By.cssSelector("#top-links > ul > li.dropdown.open > ul > li:nth-child(2) > a"));
-//        loginButton.click();
-
-        WebElement login = driver.findElement(By.cssSelector("ul.dropdown-menu>:last-child>a"));
-        login.click();
+        WebElement loginButton = driver.findElement(By.linkText("Login"));
+        loginButton.click();
 
         try{
-//        These two elements are showing in the chrome but not in the firefox
+
+            // These two elements are showing in the chrome but not in the firefox
             WebElement advancedButton = driver.findElement(By.id("details-button"));
             advancedButton.click();
 
-            //        These two elements are showing in the chrome but not in the firefox
-            Thread.sleep(3000);
+            // These two elements are showing in the chrome but not in the firefox
             WebElement ProceedButton = driver.findElement(By.id("proceed-link"));
             ProceedButton.click();
-
-        }catch (NoSuchElementException | InterruptedException e){
+        }catch (NoSuchElementException e){
             System.out.println("This part is just for chrome");
         }
 
@@ -85,6 +71,6 @@ public class BaseDriver {
 
     @AfterMethod
     public void afterMethod(){
-        driver.quit();
+//        driver.quit();
     }
 }

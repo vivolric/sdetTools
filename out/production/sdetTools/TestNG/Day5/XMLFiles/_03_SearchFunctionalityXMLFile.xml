@@ -1,0 +1,8 @@
+<suite name="suite1">
+    <test name="test1">
+        <parameter name="searchItem" value="mac"></parameter>
+        <classes>
+            <class name="TestNG.Day5._03_SearchFunctionality"></class>
+        </classes>
+    </test>
+</suite>

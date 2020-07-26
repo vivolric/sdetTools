@@ -1,0 +1,11 @@
+
+<!--Adding multiple classes under the <Classes> tag running multiple class next to each other -->
+
+<suite name="suite1">
+    <test name="test1">
+        <classes>
+            <class name="TestNG.Day4._01_Intro"></class>
+            <class name="TestNG.Day4._02_Intro"></class>
+        </classes>
+    </test>
+</suite>
